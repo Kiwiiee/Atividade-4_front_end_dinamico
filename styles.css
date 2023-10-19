@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 228, 229);
+    height: 100vh;
+}
+
+h2, button , input{
+    margin-left: 2vw;
+}
+
+
+input{
+    display: none;
+}
+
+#resultados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 35vw;
+    height: 13vh;
+    background-color: white;
+    
+}
+
+#favoritas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 80vh;
+    background-color:cadetblue;
+    border-radius: 15px;
+    margin-left: 5vw;
+}
+
+#favoritas h3{
+    color: white;
+    font-size: 40px;
+    margin-top: 3vh;
+}
+
+#favoritas label {
+    margin-top: 2vh;
+    color: white;
+    width: 25vw;
+    cursor: pointer;
+}
+
+#favoritas label:hover{
+    background-color: rgb(145, 185, 186);
+}
+
+#favoritas button{
+    margin-left: 0;
+    transform: translate(0 , 62vh);
+}
+
+#piada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 204, 205);
+    border-radius: 15px;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7vh;
+    margin-top: 5vh;
+}
+
+
+h3{
+    font-size: 70px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+#curtir{
+    cursor: pointer;
+    width: 3vw;
+}
+
+#curtir:hover{
+    content: url("like (1).png");
+
+}
